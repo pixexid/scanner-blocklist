@@ -1,0 +1,1 @@
+(starts_with(http.request.uri.path, "/.") and not starts_with(http.request.uri.path, "/.well-known/")) or http.request.uri.path contains "/.env" or http.request.uri.path contains "/.git" or ends_with(http.request.uri.path, ".php") or ends_with(http.request.uri.path, ".sql") or starts_with(http.request.uri.path, "/wp-") or starts_with(http.request.uri.path, "/actuator")
