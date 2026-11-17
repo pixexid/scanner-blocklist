@@ -1,34 +1,5 @@
-# One address per line. Text after # is a note. Added after being seen scanning for secret files.
-# 2026-11-15: seen in a 7-day review of requests for files like /.env, /.git/config and cloud keys.
-20.217.186.29
-20.46.43.126
-34.182.211.219
-34.62.25.39
-34.19.131.65
-34.180.81.60
-37.19.67.179
-34.22.204.254
-34.38.141.52
-102.133.224.63
-34.38.252.135
+# generated_at: 2026-11-17T09:23:47Z
+# consumers must reject this file if generated_at is older than 24 hours
 20.106.75.210
-34.52.234.95
-45.138.12.25
-35.195.245.38
-34.22.159.76
-34.77.99.151
-34.52.152.34
-23.251.134.61
-34.62.82.207
-34.156.64.247
-34.76.33.44
-34.76.228.132
-34.210.182.135
-20.25.145.66
 20.87.218.237
-102.133.162.110
-2a03:b0c0:2:f0:0:2:4191:4001
-170.64.232.123
-2400:6180:100:d0:0:1:c53b:8001
-# 2026-11-17: fake Googlebot, ClaudeBot, Bingbot and 28 other crawler names; about 400 secret-file paths in two bursts.
 34.155.107.158
