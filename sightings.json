@@ -1,0 +1,660 @@
+[
+  {
+    "ip": "34.155.107.158",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-17T03:23:00Z",
+    "last_seen": "2026-11-17T07:00:00Z",
+    "requests": 690,
+    "distinct_paths": 176,
+    "sample_paths": [
+      "/....//....//....//..../.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.155.107.158",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-17T03:23:00Z",
+    "last_seen": "2026-11-17T07:00:00Z",
+    "requests": 43,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/app_dev.php",
+      "/document.php",
+      "/i.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "20.106.75.210",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-14T08:34:00Z",
+    "last_seen": "2026-11-16T13:38:00Z",
+    "requests": 891,
+    "distinct_paths": 295,
+    "sample_paths": [
+      "/.well-known/ccc.php",
+      "/.well-known/nacc-min.php",
+      "/.well-known/sid3.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "20.87.218.237",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-15T05:57:00Z",
+    "last_seen": "2026-11-16T08:58:00Z",
+    "requests": 629,
+    "distinct_paths": 251,
+    "sample_paths": [
+      "///admin.php",
+      "//300_n.php",
+      "//Lz.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "2400:6180:100:d0:0:1:c53b:8001",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-15T00:26:00Z",
+    "last_seen": "2026-11-15T00:26:00Z",
+    "requests": 26,
+    "distinct_paths": 26,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials",
+      "/.env"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "2400:6180:100:d0:0:1:c53b:8001",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-15T00:26:00Z",
+    "last_seen": "2026-11-15T00:26:00Z",
+    "requests": 8,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.22.204.254",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-14T21:43:00Z",
+    "last_seen": "2026-11-14T21:43:00Z",
+    "requests": 190,
+    "distinct_paths": 75,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials",
+      "/.boto"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.22.204.254",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-14T21:43:00Z",
+    "last_seen": "2026-11-14T21:43:00Z",
+    "requests": 14,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/app/etc/env.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.38.141.52",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-14T17:07:00Z",
+    "last_seen": "2026-11-14T17:07:00Z",
+    "requests": 101,
+    "distinct_paths": 71,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials",
+      "/.boto"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.38.141.52",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-14T17:07:00Z",
+    "last_seen": "2026-11-14T17:07:00Z",
+    "requests": 9,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/app/etc/env.php",
+      "/php_info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.62.25.39",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-13T14:54:00Z",
+    "last_seen": "2026-11-13T20:10:00Z",
+    "requests": 407,
+    "distinct_paths": 98,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials",
+      "/.aws/credentials.bak"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.62.25.39",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-13T14:54:00Z",
+    "last_seen": "2026-11-13T20:10:00Z",
+    "requests": 36,
+    "distinct_paths": 7,
+    "sample_paths": [
+      "/admin/phpinfo.php",
+      "/api/phpinfo.php",
+      "/app/etc/env.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "37.19.67.179",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-12T00:03:00Z",
+    "last_seen": "2026-11-13T03:09:00Z",
+    "requests": 140,
+    "distinct_paths": 67,
+    "sample_paths": [
+      "/%2f/.env",
+      "/./.env",
+      "/.aws/config"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "37.19.67.179",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-12T00:03:00Z",
+    "last_seen": "2026-11-13T03:09:00Z",
+    "requests": 10,
+    "distinct_paths": 6,
+    "sample_paths": [
+      "/config.php",
+      "/config/mail.php",
+      "/config/services.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "170.64.232.123",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-12T20:55:00Z",
+    "last_seen": "2026-11-12T20:56:00Z",
+    "requests": 32,
+    "distinct_paths": 32,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials",
+      "/.env"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "170.64.232.123",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-12T20:56:00Z",
+    "last_seen": "2026-11-12T20:56:00Z",
+    "requests": 8,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+      "/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.38.252.135",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-12T19:21:00Z",
+    "last_seen": "2026-11-12T19:21:00Z",
+    "requests": 43,
+    "distinct_paths": 33,
+    "sample_paths": [
+      "/.ENV",
+      "/.aws/credentials.json",
+      "/.claude/.credentials.json"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.182.211.219",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-12T19:10:00Z",
+    "last_seen": "2026-11-12T19:10:00Z",
+    "requests": 179,
+    "distinct_paths": 86,
+    "sample_paths": [
+      "/.//.env",
+      "/.aws/credentials%3F.txt",
+      "/.config/gcloud/application_default_credentials.json"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.52.234.95",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-01T08:02:00Z",
+    "last_seen": "2026-11-12T14:23:00Z",
+    "requests": 189,
+    "distinct_paths": 87,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.52.234.95",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-01T08:02:00Z",
+    "last_seen": "2026-11-12T14:23:00Z",
+    "requests": 20,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/app/etc/env.php",
+      "/config/mail.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "45.138.12.25",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-12T10:05:00Z",
+    "last_seen": "2026-11-12T10:06:00Z",
+    "requests": 117,
+    "distinct_paths": 117,
+    "sample_paths": [
+      "/%252f/.env",
+      "/%252f/.env.local",
+      "/./.env"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.62.82.207",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-11T18:54:00Z",
+    "last_seen": "2026-11-11T18:54:00Z",
+    "requests": 139,
+    "distinct_paths": 57,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.52.152.34",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-11T13:47:00Z",
+    "last_seen": "2026-11-11T13:47:00Z",
+    "requests": 155,
+    "distinct_paths": 65,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.52.152.34",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-11T13:47:00Z",
+    "last_seen": "2026-11-11T13:47:00Z",
+    "requests": 14,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "20.25.145.66",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-11T01:23:00Z",
+    "last_seen": "2026-11-11T01:23:00Z",
+    "requests": 200,
+    "distinct_paths": 99,
+    "sample_paths": [
+      "//CAE-2.5.php",
+      "/1010.php",
+      "/300_n.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.156.64.247",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-10T19:43:00Z",
+    "last_seen": "2026-11-10T19:43:00Z",
+    "requests": 72,
+    "distinct_paths": 58,
+    "sample_paths": [
+      "/.aws/config",
+      "/.aws/credentials.bak",
+      "/.boto"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "20.46.43.126",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-01T14:50:00Z",
+    "last_seen": "2026-11-10T15:21:00Z",
+    "requests": 1253,
+    "distinct_paths": 538,
+    "sample_paths": [
+      "/.mopj.php",
+      "/.tmb/8.php",
+      "/.tmb/a5.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.76.228.132",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-10T14:55:00Z",
+    "last_seen": "2026-11-10T14:55:00Z",
+    "requests": 7,
+    "distinct_paths": 6,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.76.228.132",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-10T14:55:00Z",
+    "last_seen": "2026-11-10T14:55:00Z",
+    "requests": 69,
+    "distinct_paths": 52,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/credentials",
+      "/.boto"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "20.217.186.29",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-03T09:35:00Z",
+    "last_seen": "2026-11-10T10:25:00Z",
+    "requests": 1171,
+    "distinct_paths": 457,
+    "sample_paths": [
+      "/.mopj.php",
+      "/.tmb/8.php",
+      "/.tmb/a5.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.22.159.76",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-10T01:46:00Z",
+    "last_seen": "2026-11-10T01:46:00Z",
+    "requests": 78,
+    "distinct_paths": 57,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.76.33.44",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T21:12:00Z",
+    "last_seen": "2026-11-09T21:12:00Z",
+    "requests": 66,
+    "distinct_paths": 58,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.76.33.44",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-09T21:12:00Z",
+    "last_seen": "2026-11-09T21:12:00Z",
+    "requests": 6,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.210.182.135",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-09T16:58:00Z",
+    "last_seen": "2026-11-09T16:58:00Z",
+    "requests": 11,
+    "distinct_paths": 10,
+    "sample_paths": [
+      "/blog/wp-config.php",
+      "/cms/wp-config.php",
+      "/i.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.210.182.135",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T16:58:00Z",
+    "last_seen": "2026-11-09T16:58:00Z",
+    "requests": 46,
+    "distinct_paths": 37,
+    "sample_paths": [
+      "/.env",
+      "/.env.bak",
+      "/.env.development"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.19.131.65",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T13:17:00Z",
+    "last_seen": "2026-11-09T13:17:00Z",
+    "requests": 295,
+    "distinct_paths": 89,
+    "sample_paths": [
+      "/..../..../..../..../.env",
+      "/....//....//....//..../.env",
+      "/....//....//....//..../proc/self/environ"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "35.195.245.38",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T07:19:00Z",
+    "last_seen": "2026-11-09T07:19:00Z",
+    "requests": 76,
+    "distinct_paths": 60,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "35.195.245.38",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-09T07:19:00Z",
+    "last_seen": "2026-11-09T07:19:00Z",
+    "requests": 5,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "2a03:b0c0:2:f0:0:2:4191:4001",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T03:48:00Z",
+    "last_seen": "2026-11-09T03:48:00Z",
+    "requests": 8,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/.aws/credentials",
+      "/.env.backup",
+      "/.env.local"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "2a03:b0c0:2:f0:0:2:4191:4001",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-09T03:48:00Z",
+    "last_seen": "2026-11-09T03:48:00Z",
+    "requests": 8,
+    "distinct_paths": 8,
+    "sample_paths": [
+      "/adminer.php",
+      "/config.php",
+      "/config/database.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "23.251.134.61",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-09T02:04:00Z",
+    "last_seen": "2026-11-09T02:04:00Z",
+    "requests": 142,
+    "distinct_paths": 68,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "23.251.134.61",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-09T02:04:00Z",
+    "last_seen": "2026-11-09T02:04:00Z",
+    "requests": 15,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "102.133.162.110",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-07T14:15:00Z",
+    "last_seen": "2026-11-08T21:33:00Z",
+    "requests": 320,
+    "distinct_paths": 137,
+    "sample_paths": [
+      "///admin.php",
+      "//aa.php",
+      "//admin.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.180.81.60",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-08T16:11:00Z",
+    "last_seen": "2026-11-08T16:11:00Z",
+    "requests": 301,
+    "distinct_paths": 120,
+    "sample_paths": [
+      "/..../..../..../..../proc/self/environ",
+      "/....//....//....//..../.env",
+      "/....//....//....//..../proc/self/environ"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.77.99.151",
+    "behaviour": "secret_files",
+    "first_seen": "2026-11-08T10:38:00Z",
+    "last_seen": "2026-11-08T10:38:00Z",
+    "requests": 148,
+    "distinct_paths": 72,
+    "sample_paths": [
+      "/.aws/.env",
+      "/.aws/config",
+      "/.aws/credentials"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "34.77.99.151",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-08T10:38:00Z",
+    "last_seen": "2026-11-08T10:38:00Z",
+    "requests": 9,
+    "distinct_paths": 5,
+    "sample_paths": [
+      "/api/phpinfo.php",
+      "/config.php",
+      "/info.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  },
+  {
+    "ip": "102.133.224.63",
+    "behaviour": "webshell_probe",
+    "first_seen": "2026-11-08T07:44:00Z",
+    "last_seen": "2026-11-08T07:44:00Z",
+    "requests": 306,
+    "distinct_paths": 150,
+    "sample_paths": [
+      "/.well-known/ccc.php",
+      "/.well-known/nacc-min.php",
+      "/.well-known/xp.php"
+    ],
+    "source": "nuvyr.com Cloudflare analytics"
+  }
+]

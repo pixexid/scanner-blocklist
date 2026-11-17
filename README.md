@@ -1,32 +1,19 @@
 # scanner-blocklist
 
-Addresses and rules for blocking bots that hunt for secret files on websites: `.env`, `.git/config`, cloud keys, database dumps. Many of them pretend to be Googlebot or another well-known crawler.
+An advisory feed of reviewed first-party sightings from [Nuvyr](https://nuvyr.com). Only Nuvyr's own observations are published. An address expires 48 hours after its last verified attack; only fresh probing renews it. An address may have changed hands, so assess the impact before using the feed to block traffic.
 
-Everything here was seen on sites we run. Nothing is copied from other lists. Maintained by [Nuvyr](https://nuvyr.com).
+Agents can fetch [feed.json](feed.json). It includes `generated_at`, `ttl_hours`, and each entry's `expires_at`. [ips.txt](ips.txt) contains the same addresses. Reject a feed more than 24 hours old, drop expired entries, and replace your list on every sync; never append to an old list. If updates stop, drop stale data rather than keeping it indefinitely.
 
-## Files
+`sightings.json` is the hand-maintained input. Run `python3 -m unittest -v` and `python3 build.py` to test and generate the feed. The scheduled build runs every six hours.
 
-- `ips.txt`: addresses seen scanning, one per line. Lines starting with `#` are notes and give the date and what was seen.
-- `cloudflare/fake-crawler.txt`: a Cloudflare custom rule expression. It matches a request that calls itself a known crawler (Googlebot, Bingbot, ClaudeBot, GPTBot and others) but that Cloudflare has not confirmed. Real crawlers are confirmed, so search indexing is not affected.
-- `cloudflare/scanner-paths.txt`: a Cloudflare custom rule expression for paths that only scanners ask for. Check it against your own site first. It blocks every path that starts with `/.` (except `/.well-known/`) and every path ending in `.php`.
+## Cloudflare examples
 
-## Use with Cloudflare
+The expressions in `cloudflare/*.txt` are examples to adapt and test against your own traffic. The scanner-paths rule blocks every `.php` path and every `/wp-` path, which breaks WordPress and PHP sites. The fake-crawler rule can block useful unverified bots and may affect indexing. Choose actions appropriate for your site.
 
-Add each rule under Security → WAF → Custom rules with the action **Block**. Put them before any rule that allows or skips traffic.
+## Disputes
 
-To block the addresses, turn `ips.txt` into a rule expression:
-
-```sh
-curl -s https://raw.githubusercontent.com/pixexid/scanner-blocklist/main/ips.txt \
-  | grep -v '^#' | paste -sd' ' - | sed 's/.*/ip.src in {&}/'
-```
-
-The list also works anywhere else that reads one address per line.
-
-## Removal
-
-Cloud servers change hands, so an address can end up with someone innocent. Addresses not seen scanning again within 90 days are removed. If you hold one of these addresses and want it off the list, open an issue.
+Open an issue to dispute an entry. Disputed entries are removed while reviewed.
 
 ## License
 
-CC0. Use it however you like.
+CC0. See [LICENSE](LICENSE).
