@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:21:29Z",
+  "generated_at": "2026-11-18T12:18:25Z",
   "ttl_hours": 48,
   "entries": [
     {
@@ -10,15 +10,6 @@
       "last_seen": "2026-11-16T13:38:00Z",
       "expires_at": "2026-11-18T13:38:00Z",
       "requests": 891
-    },
-    {
-      "ip": "20.87.218.237",
-      "behaviours": [
-        "webshell_probe"
-      ],
-      "last_seen": "2026-11-16T08:58:00Z",
-      "expires_at": "2026-11-18T08:58:00Z",
-      "requests": 629
     },
     {
       "ip": "34.155.107.158",
