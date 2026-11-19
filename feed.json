@@ -1,16 +1,5 @@
 {
-  "generated_at": "2026-11-19T06:22:19Z",
+  "generated_at": "2026-11-19T12:18:20Z",
   "ttl_hours": 48,
-  "entries": [
-    {
-      "ip": "34.155.107.158",
-      "behaviours": [
-        "secret_files",
-        "webshell_probe"
-      ],
-      "last_seen": "2026-11-17T07:00:00Z",
-      "expires_at": "2026-11-19T07:00:00Z",
-      "requests": 733
-    }
-  ]
+  "entries": []
 }
